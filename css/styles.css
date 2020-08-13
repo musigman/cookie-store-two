@@ -1,0 +1,137 @@
+
+nav {
+  font-family: 'Open Sans Condensed', sans-serif;
+  background-color: darkblue;
+  display: inline;
+  padding: 10px;
+  margin: 20px;
+  text-decoration: none;
+
+  }
+
+  a {
+    font-family: 'Open Sans Condensed', sans-serif;
+    color: blueviolet;
+    font-size: 1em;
+    display: inline;
+    padding: 10px;
+    margin: 20px;
+    text-decoration: none;
+    /* background-image: url(/images/cutter.jpeg); */
+    }
+    
+body {
+background-color:lightgreen;
+}
+
+h1 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 3em;
+  color: darkblue;
+}
+#logo {
+  float: right;
+  margin: 20px;
+ 
+}
+
+section {
+  width: 200px;
+  
+  
+  display: inline;
+  margin: 20px;
+  padding: 20px;
+  align: auto;
+}
+form {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 1em;
+  margin: 20px;
+  padding: 20px;
+  background-color: darkkhaki;
+}
+
+img {
+width: 300px;
+}
+
+a,li {
+font-family: 'Roboto Condensed', sans-serif;
+color: darkgoldenrod;
+}
+
+h2 {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: darkslategray;
+  margin: 5px;
+  padding: 10px;
+}
+/* address {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: darkslategray;
+  margin: 5px;
+  padding: 10px;
+ 
+} */
+#tacoma {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: purple;
+  margin: 5px;
+  padding: 10px;
+  float: right;
+}
+#fife {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: blue;
+  margin: 5px;
+  padding: 10px;
+  float: left;
+ 
+}
+
+h3, h4, h5 {
+font-family: 'Antic Slab', serif;
+color: darkslateblue;
+}
+
+.table {
+font-family: 'Open Sans', sans-serif;
+}
+
+.school {
+  width: 10px;
+  display: none;
+  
+}
+.cutter {
+  width: 10px;
+  display: none;
+  
+}
+.family{
+  width: 10px;
+  display: none;
+  
+}
+.chinook {
+  width: 10px;
+  display: none;
+  
+}
+.shirt {
+  width: 10px;
+  display: none;
+  
+}
+.frosted {
+  width: 10px;
+  display: none;
+  
+}
+
+footer {
+  font-family: 'Open Sans Condensed', sans-serif;
+  color: darkslategray;
+  text-align: center;
+}
