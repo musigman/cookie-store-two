@@ -2,11 +2,11 @@
 nav {
   font-family: 'Open Sans Condensed', sans-serif;
   background-color: darkblue;
-  display: inline;
+  width: 96%;
+  /* display: inline; */
   padding: 10px;
   margin: 20px;
   text-decoration: none;
-
   }
 
   a {
@@ -17,7 +17,7 @@ nav {
     padding: 10px;
     margin: 20px;
     text-decoration: none;
-    /* background-image: url(/images/cutter.jpeg); */
+    
     }
     
 body {
@@ -28,22 +28,24 @@ h1 {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 3em;
   color: darkblue;
+  margin: 20px;
+  line-height: 20px;
 }
 #logo {
   float: right;
-  margin: 20px;
+  margin: 30px;
+  padding: 20px;
  
 }
 
-section {
+/* section {
   width: 200px;
-  
-  
   display: inline;
   margin: 20px;
   padding: 20px;
   align: auto;
-}
+} */
+
 form {
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1em;
@@ -52,9 +54,9 @@ form {
   background-color: darkkhaki;
 }
 
-img {
+/* img {
 width: 300px;
-}
+} */
 
 a,li {
 font-family: 'Roboto Condensed', sans-serif;
@@ -92,41 +94,40 @@ h2 {
 
 h3, h4, h5 {
 font-family: 'Antic Slab', serif;
+font-weight: bold;
 color: darkslateblue;
+margin: 20px;
+line-height: 20px;
 }
-
+#contact {
+  font-family: 'Antic Slab', serif;
+  font-weight: bold;
+  color: red;
+  margin: 20px;
+  line-height: 20px;
+  }
 .table {
 font-family: 'Open Sans', sans-serif;
 }
+/* .picture-box {
+  padding-top: 50px;
+  text-align: center;
+  display: inline;
+  margin : 20px;
+  direction: rtl;
+} */
 
-.school {
-  width: 10px;
-  display: none;
+.sized {
+  margin: 5px;
+  margin-left: 21px;
+  height: 200px;
+  width: 200px;
   
 }
-.cutter {
-  width: 10px;
-  display: none;
-  
-}
-.family{
-  width: 10px;
-  display: none;
-  
-}
-.chinook {
-  width: 10px;
-  display: none;
-  
-}
-.shirt {
-  width: 10px;
-  display: none;
-  
-}
-.frosted {
-  width: 10px;
-  display: none;
+#logo {
+  height: 100px;
+  margin: 2px;
+  display: inline-block;
   
 }
 
