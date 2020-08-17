@@ -99,19 +99,19 @@ form.addEventListener('submit', function(event){
 });
 
 function footer() {
-  var footerRow = document.createElement(‘tr’);
-  var dailyTotalAllStores = document.createElement(‘td’);
-  dailyTotalAllStores.textContent = ‘Daily Total of All Stores per Hour’;
+  var footerRow = document.createElement('tr');
+  var dailyTotalAllStores = document.createElement('td');
+  dailyTotalAllStores.textContent = 'Daily Total of All Stores per Hour';
   footerRow.appendChild(dailyTotalAllStores);
   for (var i = 0; i < clock.length; i++) {
     var hourlyTotals = 0;
     for (var j = 0; j < allStores.length; j++) {
       hourlyTotals += allStores[j].hourlyCookies[i];
     }
-    var footerData = document.createElement(‘td’)
+    var footerData = document.createElement('td')
     footerData.textContent = hourlyTotals;
     footerRow.appendChild(footerData);
   }
   parentElement.appendChild(footerRow);
-}
+};
 footer();
