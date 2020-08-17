@@ -1,7 +1,7 @@
 
 nav {
   font-family: 'Open Sans Condensed', sans-serif;
-  background-color: darkblue;
+  background-color: goldenrod;
   width: 96%;
   /* display: inline; */
   padding: 10px;
@@ -22,6 +22,7 @@ nav {
     
 body {
 background-color:lightgreen;
+
 }
 
 h1 {
@@ -29,82 +30,116 @@ h1 {
   font-size: 3em;
   color: darkblue;
   margin: 20px;
+  margin-top: 20px;
   line-height: 20px;
 }
-#logo {
-  float: right;
-  margin: 30px;
-  padding: 20px;
- 
+
+#redhead {
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-size: 3em;
+  color: red;
+  margin: 20px;
+  line-height: 80px;
 }
 
-/* section {
-  width: 200px;
-  display: inline;
-  margin: 20px;
-  padding: 20px;
-  align: auto;
-} */
+p {
+  color:darkslategrey;
+  font-family: 'Times New Roman', Times, serif;
+  font-size: 1em;
+  margin-left: 50px;
+  margin-right: 50px; 
+
+}
+#st {
+  background: rgba(241, 214, 126, 0.842);
+  background-image: url("../images/family.jpg");
+  background-repeat: no-repeat;
+  background-size: 1400px 900px;
+  border-style: solid;
+  border-width: thin;
+  border-color: black;
+  border-radius: 25px;
+  margin-left: 50px;
+  margin-right: 50px; 
+ 
+
+}
+
 
 form {
+  background-color: darkkhaki;
   font-family: 'Open Sans Condensed', sans-serif;
   font-size: 1em;
   margin: 20px;
   padding: 20px;
-  background-color: darkkhaki;
+
+}
+#add-box
+background-color: darkkhaki;
+width: 96%;
+padding: 10px;
+margin: 20px;
 }
 
-/* img {
-width: 300px;
-} */
-
 a,li {
+  color: white;
 font-family: 'Roboto Condensed', sans-serif;
-color: darkgoldenrod;
+
 }
 
 h2 {
+  color: red;
   font-family: 'Open Sans Condensed', sans-serif;
-  color: darkslategray;
   margin: 5px;
   padding: 10px;
 }
-/* address {
-  font-family: 'Open Sans Condensed', sans-serif;
-  color: darkslategray;
-  margin: 5px;
-  padding: 10px;
- 
-} */
+
 #tacoma {
-  font-family: 'Open Sans Condensed', sans-serif;
   color: purple;
+  float: right;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
   margin: 5px;
   padding: 10px;
-  float: right;
+
 }
 #fife {
-  font-family: 'Open Sans Condensed', sans-serif;
   color: blue;
+  font-family: 'Open Sans Condensed', sans-serif;
+  font-weight: bold;
+  float: left;
   margin: 5px;
   padding: 10px;
-  float: left;
+
  
 }
 
-h3, h4, h5 {
+h3, h5 {
+color: darkslateblue;
 font-family: 'Antic Slab', serif;
 font-weight: bold;
-color: darkslateblue;
-margin: 20px;
+
 line-height: 20px;
+margin: 20px;
+
 }
-#contact {
+
+h4 {
+  color: black;
   font-family: 'Antic Slab', serif;
   font-weight: bold;
-  color: red;
-  margin: 20px;
   line-height: 20px;
+  margin: 20px;
+
+  }
+
+#contact {
+  color: red;
+  font-family: 'Antic Slab', serif;
+  font-weight: bold;
+  line-height: 20px;
+  margin: 20px;
+
   }
 .table {
 font-family: 'Open Sans', sans-serif;
@@ -118,21 +153,26 @@ font-family: 'Open Sans', sans-serif;
 } */
 
 .sized {
+  height: 200px;
   margin: 5px;
   margin-left: 21px;
-  height: 200px;
   width: 200px;
   
 }
 #logo {
+  float: right;
   height: 100px;
-  margin: 2px;
-  display: inline-block;
+  margin: 30px;
+  
   
 }
 
 footer {
-  font-family: 'Open Sans Condensed', sans-serif;
   color: darkslategray;
+  font-family: 'Open Sans Condensed', sans-serif;
   text-align: center;
 }
+
+
+/* margin: 30px;
+padding: 20px; */
