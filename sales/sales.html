@@ -23,32 +23,27 @@
     </header>
     <main>
       <section >
-        <div id="st">
-      <a href="../index.html"></a>
-       <h2> Needed Cookie Supply for Seattle</h2>
-       <ul id = "seattle">
-       </ul>
-       <h4 id = "seattleTotal">Total</h2>
-       <h2>Needed Cookie Supply for Tokyo</h2>
-       <ul id = "tokyo">
-       </ul>
-       <h4 id = "tokyoTotal">Total</h2>
-       <h2>Needed Cookie Supply for Dubai</h2>
-       <ul id = "dubai">
-       </ul>
-       <h4 id = "dubaiTotal">Total</h2>
-       <h2>Needed Cookie Supply for Paris</h2>
-       <ul id = "paris">
-       </ul>
-       <h4 id = "parisTotal">Total</h2>
-       <h2>Needed Cookie Supply for Lima</h2>
-       <ul id = "lima">
-       </ul>
-       <h4 id = "limaTotal">Total</h2>
-       </div>
+  -->
+      
        </section>
+
+       <form id="form">
+        <fieldset>
+          <label> Name of New Store/Location</label>
+          <input name="storename" type="text" /><br>
+          <label>Minimum Expected Customers per hour</label>
+          <input name="mincustomer" type="text" /><br>
+          <label>Maximum Expected Customers per hour</label>
+          <input name="maxcustomer" type="text" /><br>
+          <label>Average Amount of Cookies Expected to be Purchased by Each Customer</label>
+          <input name="avgcookie" type="text" /><br>
+          <button type="submit">Submit</button>
+        </fieldset>
+      </form>
     </main>
-    <footer>&copy;2020 All rights reserved</footer>
+    <footer>
+      <table id="table"></table>
+      &copy;2020 All rights reserved</footer>
     <script src="../js/constructor.js"></script>
   </body>
 </html>
